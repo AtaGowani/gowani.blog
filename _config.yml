@@ -1,13 +1,13 @@
 # Site
-name: 'Ata Gowani's Blog'
-title: 'Ata Gowani's Blog'
-description: 'This is Ata's blog for all thoughts tech, religion, theology, and more.''
+name: "Ata Gowani's Blog"
+title: "Ata Gowani's Blog"
+description: "Ata's personal blog for all things tech, philosophy, theology, and more."
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
-baseurl: /
-google_analytics: ''
-disqus: ''
-mailchimp-list: ''
+baseurl: 
+# google_analytics: ''
+# disqus: ''
+# mailchimp-list: ''
 include: ["_pages"]
 permalink: /:title/
 
@@ -16,11 +16,11 @@ authors:
   ata:
     name: Ata Gowani
     display_name: Ata Gowani
-    gravatar: e56154546cf4be74e393c62d1ae9f9d4
+    gravatar: 7ff022d995adfffc7d2d62ef90ae7f8f
     email: me@atagowani.com
     web: https://atagowani.com
-    # twitter: 
-    description: "A software engineer interested in privacy and security."
+    # twitter: https://twitter.com/wowthemesnet
+    description: "A software engineer professionally working in privacy & security and interested in religion, theology, and philosophy."
 
 # Plugins
 plugins:
@@ -52,12 +52,12 @@ kramdown:
     block:
       line_numbers: true
 
-# Adsense (change to 'enabled' to activate, also your client id and ad slot. Create a new ad unit from your Adsense account to get the slot.)
-adsense: 'disabled'
-adsense-data-ad-client: ''
-adsense-data-ad-slot: ''
+# Adsense (change to "enabled" to activate, also your client id and ad slot. Create a new ad unit from your Adsense account to get the slot.)
+adsense: "disabled"
+adsense-data-ad-client: ""
+adsense-data-ad-slot: ""
 
-# Lazy Images ('enabled' or 'disabled')
-lazyimages: 'enabled'
+# Lazy Images ("enabled" or "disabled")
+lazyimages: "enabled"
 
 exclude: [changelog.md, LICENSE.txt, README.md, Gemfile, Gemfile.lock, vendor]
