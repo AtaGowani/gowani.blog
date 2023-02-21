@@ -1,7 +1,7 @@
 # Site
 name: "Ata Gowani's Blog"
 title: "Ata Gowani's Blog"
-description: "Ata's personal blog for all things tech, philosophy, theology, and more."
+description: "A personal blog for all things tech, philosophy, theology, and more."
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
 baseurl: 
